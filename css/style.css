@@ -16,12 +16,13 @@ body {
 
 #container {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   gap: 3.5rem;
 }
 
 #img img {
-  width: 32rem;
+  width: 25rem;
 }
 
 #calculator {
@@ -31,6 +32,8 @@ body {
   padding: 2rem;
   color: #f8fafc;
   background-color: #262626;
+  width: 500px;
+  max-width: 500px;
 }
 
 #form {
